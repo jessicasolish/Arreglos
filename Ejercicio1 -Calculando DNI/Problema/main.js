@@ -1,8 +1,8 @@
-  /*var numeros=[0,1,2,3,4,5,6,7,8,9,10];
+  var numeros=[0,1,2,3,4,5,6,7,8,9,10];
   console.log(numeros);
   numeros.reverse();
   var numero2=[];
-
+<<s                      
   for(var i=0;i <numeros.length;i++)
   {
   if(numeros[i] % 2==0){
@@ -35,16 +35,45 @@
   else{
      alert("La letra es correcta");
   } 
-  */
-  var nombres =["jessica","alondra","javiera","carolina"];
-  console.log(nombres);
-  var nomb=[];
 
-  for(var i=0;i <nombres.length;i++)
-  {
-    nomb.push(nombres[i]);
+  var nombre =["jessica","alondra","javiera","carolina"];
+  nombre.push("isabel");
+  nombre.push("paula");
+  nombre.push("isidora");
+  for(var i=0;i<=nombre.length -1; i++){
+    console.log(nombre[i]);
   }
-  console.log(nomb);
+ 
+  //function
+
+  function sumaDos(num1, num2){
+    console.log(num1 + num2);
+  }
+  sumaDos(5,6);
+
+var num1=85
+funtion sumaDos(num1,num2)
+{
+  return(num1+num2);
+}
+function divideDos(){
+  var num1=25
+
+}
+
+var blanca="humano";
+
+function laboratoria()
+{
+  var blanca="profe";
+  return blanca;
+}
+
+funtion casa(){
+  var blanca="cocinera";
+  return blanca;
+}
+  
 
 
 
